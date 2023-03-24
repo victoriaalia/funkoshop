@@ -1,74 +1,221 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <!--TITLE-->   
-    <title>FUNKOSHOP</title>
- <!--CSS-->
-    <link href="style.css" rel="stylesheet" >
- <!--BOOTSTRAP-->
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
- <!--FAVICON-->
- <link rel="icon" type="image/x-icon" href="./branding/my-favorites-svgrepo-com.svg">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Title-->
+  <title>FUNKOSHOP</title>
+  <!--CSS-->
+  <link href="style.css" rel="stylesheet">
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <!--favicon-->
+  <link rel="icon" type="image/x-icon" href="./branding/my-favorites-svgrepo-com.svg">
 </head>
+
 <body>
-    <!--Barra de navegacion-->
-    <nav class="navbar navbar-expand-md navbar-ligh" id="navbar">
-        <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar-toggler">
-          <a class="navbar-brand" href="#">
-            <img src="./branding/logo_light_horizontal.svg" width="250" alt="Logo de la página web" id="logo">
-          </a>
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#shop">SHOP<span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contacto">CONTACTO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#login">LOGIN</a>
-            </li>
-            <li class="nav-item">
-                <img class="img-cart" src="./icons/cart-icon.svg" alt="cart-icon" >
-              </li>
-          </ul>
-        </div>
-      </nav>
-      <div class="funkos-banner">
-        <div class="container">
-          <h2>Nuevos Ingresos</h2>
-          <p>Descubrí el próximo Funko Pop de tu colección</p>
-        </div>
+  <!--Barra de navegacion-->
+  <nav class="navbar navbar-expand-md navbar-ligh" id="navbar">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+          <img src="./branding/logo_light_horizontal.svg" width="250" alt="Logo de la página web" id="logo">
+        </a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#shop">SHOP<span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">CONTACTO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#login">LOGIN</a>
+          </li>
+          <li class="nav-item">
+            <img class="img-cart" src="./icons/cart-icon.svg" alt="cart-icon">
+          </li>
+        </ul>
+      </div>
+  </nav>
+  <!--Banner-->
+  <div class="advanced-background">
+    <div class="advanced-backgroundBody">
+      <div class="container d-flex flex-column">
+        <h2>Nuevos Ingresos</h2>
+        <p>Descubrí el próximo Funko Pop de tu colección</p>
         <button type="button" id="btn">SHOP</button>
       </div>
+    </div>
+  </div>
 
-      <section>
+  <!--Columnas-->
+
+  <section>
+
+    <div class="container text-left">
+      <!--1-->
       <div class="row">
-        <div class="col-6">
-        <h3 class="page-title"> STAR WARS & THE MANDALORIAN </h3>
-        <p class="page-text"> 
-          Disfruta de una saga que sigue agregando personajes a su colección.
-        </p> 
-        <br>
-        <br>
-        <br>
-        <div class="linea">
+        <div class="col">
+          <h3 class="page-title"> STAR WARS & THE MANDALORIAN </h3>
+          <p class="page-text">
+            Disfruta de una saga que sigue agregando personajes a su colección.
+          </p>
+          <div class="linea">
+          </div>
+          <button class="btn2">
+            VER COLECCIÓN
+          </button>
         </div>
-        </div>
-        
-        <div class="col-6">
+        <div class="col">
           <img src="./star-wars/baby-yoda-1.webp">
         </div>
-       
+      </div>
+      <!--2-->
+      <div class="row">
+        <div class="col">
+          <img src="./pokemon/vulpix-1.webp">
+        </div>
+        <div class="col">
+          <h3 class="page-title"> POKEMON INDIGO </h3>
+          <p class="page-text">
+            Atrapa todos los que puedas y disfruta de una colección llena de amigos.
+          </p>
+          <div class="linea">
+          </div>
+          <button class="btn2">
+            VER COLECCIÓN
+          </button>
+        </div>
+      </div>
+      <!--3-->
+      <div class="row">
+        <div class="col">
+          <h3 class="page-title"> HARRY POTTER </h3>
+          <p class="page-text">
+            Revive los recuerdos de una saga llena de magia y encanto.
+          </p>
+          <div class="linea">
+          </div>
+          <button class="btn2">
+            VER COLECCIÓN
+          </button>
+        </div>
+        <div class="col">
+          <img src="./harry-potter/snape-patronus-1.webp">
+        </div>
       </div>
     </div>
   </section>
+
+  <!--3 col-->
+  <section>
+    <h4 id="lanzamientos"> ÚLTIMOS LANZAMIENTOS </h4>
+    <div class="container text-left">
+      <!--1-->
+      <div class="row">
+        <div class="col">
+          <div class="nuevo">
+            NUEVO
+          </div>
+          <img src="./star-wars/trooper-1.webp" width="359.97px" height="352px">
+          <p class="name">
+            STAR WARS
+          </p>
+          <p class="name-funko">
+            STORMTROOPER LIGHTSABER
+          </p>
+          <p class="price">
+            $1799,99
+          </p>
+          <p class="cuotas">
+            3 CUOTAS SIN INTERÉS
+          </p>
+        </div>
+        <!--2-->
+        <div class="col">
+          <div class="new">
+            NUEVO
+          </div>
+          <img src="./pokemon/pidgeotto-1.webp" width="359.97px" height="352px">
+          <p class="name">
+            POKEMON
+          </p>
+          <p class="name-funko">
+            PIDGEOTTO
+          </p>
+          <p class="price">
+            $1799,99.-
+          </p>
+          <p class="cuotas">
+            3 CUOTAS SIN INTERÉS
+          </p>
+        </div>
+        <!--3-->
+        <div class="col">
+          <div class="nuevo3">
+            NUEVO
+          </div>
+          <img src="./harry-potter/luna-1.webp" width="359.97px" height="352px">
+          <p class="name">
+            HARRY POTTER
+          </p>
+          <p class="name-funko">
+            LUNA LOVEGOOD LION MASK
+          </p>
+          <p class="price">
+            $1799,99.-
+          </p>
+          <p class="cuotas">
+            3 CUOTAS SIN INTERÉS
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer>
+    <div class="row">
+      <div class="col-6">
+        <ol class="banner-text">
+          <ul>
+            SHOP
+          </ul>
+          <ul>
+            REGISTRARSE
+          </ul>
+          <ul>
+            INGRESAR
+          </ul>
+          <ul>
+            CONTACTO
+          </ul>
+        </ol>
+      </div>
+
+      <div class="col-6">
+        <img class="footer-logo" src="./branding/isotype.svg" width="143px" height="116.19px">
+      </div>
+    </div>
+    </div>
+    </div>
+    <div class="container text-center"">
+      <div class=" derechos">
+      All rights reserved 2022 - Funkoshop &copy;
+    </div>
+    </div>
+    </div>
+  </footer>
 </body>
+
 </html>
