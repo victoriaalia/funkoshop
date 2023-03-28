@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+/*Barra de navegación*/
+#navbar {
+  background: #30343f;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(236, 234, 234);
+  font-size: 0.6rem;
+  padding-bottom: 25px;
+}
+
+li .nav-link {
+  color: white;
+  margin-right: 0.5rem;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  font-style: normal;
+  font-family: "Raleway", sans-serif;
+  justify-content: space-between;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  padding-top: 1rem;
+}
+
+li.nav-item.img {
+  width: 32px;
+  height: 24.43px;
+  top: 0.62px;
+  left: 0.7px;
+}
+
+
+.name {
+    font-family: "Inter", sans-serif;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 17px;
+  }
+  
+  .name-funko {
+    color: #111111;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  
+  .price {
+    color: #333333;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  
+  .cuotas {
+    color: #159edd;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    padding-bottom: 5rem;
+  }
+  
+  footer {
+    background: #30343f;
+    padding: 4rem;
+    padding-bottom: 2rem;
+  }
+  
+  .banner-text {
+    color: white;
+  }
+  
+  .nuevo {
+    position: absolute;
+    margin-left: 16rem;
+    background: #ff3333;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    width: 96.13px;
+    height: 30px;
+    text-align: center;
+    padding: 0.5rem;
+  }
+  
+  .new {
+    position: absolute;
+    margin-left: 15rem;
+    background: #ff3333;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    width: 96.13px;
+    height: 30px;
+    text-align: center;
+    padding: 0.5rem;
+  }
+  
+  .nuevo3 {
+    position: absolute;
+    margin-left: 15rem;
+    background: #ff3333;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    width: 96.13px;
+    height: 30px;
+    text-align: center;
+    padding: 0.5rem;
+  }
+  
+  .footer-logo {
+    position: absolute;
+    left: 82.43%;
+    right: 7.65%;
+    margin-top: 2rem;
+  }
+  
+.derechos {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 1rem;
+    margin-top: 7rem;
+  }
+
+.productos {
+margin-left: 30rem;
+margin-top: 7rem;
+  }
+
+.page-link {
+    align-items: center;
+    margin-left: 32rem;
+}
+
+.page-item {
+    color: black;
+}
+
+.foot {
+    color: white;
+    text-decoration: none;
+  }
